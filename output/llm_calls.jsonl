@@ -1,0 +1,14 @@
+{"purpose": "classify N001", "input_tokens": 142, "output_tokens": 3, "seconds": 1.5}
+{"purpose": "classify N002", "input_tokens": 129, "output_tokens": 3, "seconds": 0.57}
+{"purpose": "classify N003", "input_tokens": 123, "output_tokens": 3, "seconds": 0.52}
+{"purpose": "classify N004", "input_tokens": 123, "output_tokens": 4, "seconds": 0.62}
+{"purpose": "classify N005", "input_tokens": 122, "output_tokens": 4, "seconds": 0.62}
+{"purpose": "classify N006", "input_tokens": 120, "output_tokens": 4, "seconds": 0.61}
+{"purpose": "classify N007", "input_tokens": 121, "output_tokens": 3, "seconds": 0.52}
+{"purpose": "classify N008", "input_tokens": 121, "output_tokens": 4, "seconds": 0.61}
+{"purpose": "classify N009", "input_tokens": 120, "output_tokens": 4, "seconds": 0.61}
+{"purpose": "classify N010", "input_tokens": 123, "output_tokens": 3, "seconds": 0.52}
+{"purpose": "explain Ahmedabad-Mumbai 2025-01-20", "input_tokens": 266, "output_tokens": 62, "seconds": 6.49}
+{"purpose": "explain Chennai-Bangalore 2025-02-24", "input_tokens": 279, "output_tokens": 47, "seconds": 6.22}
+{"purpose": "explain Chennai-Bangalore 2025-03-03", "input_tokens": 279, "output_tokens": 46, "seconds": 4.97}
+{"purpose": "explain Mumbai-Delhi 2025-05-12", "input_tokens": 259, "output_tokens": 49, "seconds": 5.25}

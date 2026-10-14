@@ -1,0 +1,270 @@
+{
+  "llm_backend": "local",
+  "runtime_seconds": 33.8,
+  "rows": 728,
+  "flagged_unexplained": 16,
+  "justified": 4,
+  "flag_rows": [
+    {
+      "route": "Ahmedabad-Mumbai",
+      "week_of": "2025-01-20",
+      "flagged": "No (justified)",
+      "matched_note_id": "N002"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-02-24",
+      "flagged": "No (justified)",
+      "matched_note_id": "N001"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-03-03",
+      "flagged": "No (justified)",
+      "matched_note_id": "N001"
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-03-10",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Chennai-Bangalore",
+      "week_of": "2025-03-17",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Delhi-Jaipur",
+      "week_of": "2024-11-11",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Delhi-Jaipur",
+      "week_of": "2024-11-18",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Delhi",
+      "week_of": "2025-05-12",
+      "flagged": "No (justified)",
+      "matched_note_id": "N003"
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-06-23",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-09-15",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-06",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-20",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-27",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-11-03",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-11-17",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-11-24",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-01",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-08",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-15",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-12-22",
+      "flagged": "Yes",
+      "matched_note_id": ""
+    }
+  ],
+  "explanation_source": {
+    "Ahmedabad-Mumbai 2025-01-20": "llm",
+    "Chennai-Bangalore 2025-02-24": "llm",
+    "Chennai-Bangalore 2025-03-03": "llm",
+    "Chennai-Bangalore 2025-03-10": "template",
+    "Chennai-Bangalore 2025-03-17": "template",
+    "Delhi-Jaipur 2024-11-11": "template",
+    "Delhi-Jaipur 2024-11-18": "template",
+    "Mumbai-Delhi 2025-05-12": "llm",
+    "Mumbai-Pune 2025-06-23": "template",
+    "Mumbai-Pune 2025-09-15": "template",
+    "Mumbai-Pune 2025-10-06": "template",
+    "Mumbai-Pune 2025-10-20": "template",
+    "Mumbai-Pune 2025-10-27": "template",
+    "Mumbai-Pune 2025-11-03": "template",
+    "Mumbai-Pune 2025-11-17": "template",
+    "Mumbai-Pune 2025-11-24": "template",
+    "Mumbai-Pune 2025-12-01": "template",
+    "Mumbai-Pune 2025-12-08": "template",
+    "Mumbai-Pune 2025-12-15": "template",
+    "Mumbai-Pune 2025-12-22": "template"
+  },
+  "notes": [
+    {
+      "note_id": "N001",
+      "applies_to": "Chennai-Bangalore",
+      "window": "2025-02-24 to 2025-03-08",
+      "window_rule": "explicit date range in note",
+      "rule_effect": "increase",
+      "rule_evidence": "higher trip costs",
+      "llm_effect": "increase",
+      "usable_as_justification": true
+    },
+    {
+      "note_id": "N002",
+      "applies_to": "Ahmedabad-Mumbai",
+      "window": "2025-01-20 to 2025-01-26",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "increase",
+      "rule_evidence": "surcharge",
+      "llm_effect": "increase",
+      "usable_as_justification": true
+    },
+    {
+      "note_id": "N003",
+      "applies_to": "All Routes",
+      "window": "2025-05-05 to 2025-06-29",
+      "window_rule": "open-ended ('starting this week'), capped at 8 weeks",
+      "rule_effect": "increase",
+      "rule_evidence": "pushing up transportation costs",
+      "llm_effect": "increase",
+      "usable_as_justification": true
+    },
+    {
+      "note_id": "N004",
+      "applies_to": "All Routes",
+      "window": "2024-03-11 to 2024-03-17",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "not part of this dataset",
+      "llm_effect": "no_increase",
+      "usable_as_justification": false
+    },
+    {
+      "note_id": "N005",
+      "applies_to": "Mumbai-Delhi",
+      "window": "2024-07-29 to 2024-08-04",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "not significantly affected",
+      "llm_effect": "no_increase",
+      "usable_as_justification": false
+    },
+    {
+      "note_id": "N006",
+      "applies_to": "All Routes",
+      "window": "2025-09-22 to 2025-09-28",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "no major disruptions",
+      "llm_effect": "no_increase",
+      "usable_as_justification": false
+    },
+    {
+      "note_id": "N007",
+      "applies_to": "Delhi-Jaipur",
+      "window": "2024-05-20 to 2024-05-26",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "improved",
+      "llm_effect": "increase",
+      "usable_as_justification": false
+    },
+    {
+      "note_id": "N008",
+      "applies_to": "Kolkata-Bhubaneswar",
+      "window": "2025-06-09 to 2025-06-15",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "No significant disruptions",
+      "llm_effect": "no_increase",
+      "usable_as_justification": false
+    },
+    {
+      "note_id": "N009",
+      "applies_to": "Chennai-Bangalore",
+      "window": "2025-03-17 to 2025-03-23",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "returned to normal",
+      "llm_effect": "no_increase",
+      "usable_as_justification": false
+    },
+    {
+      "note_id": "N010",
+      "applies_to": "All Routes",
+      "window": "2025-10-27 to 2025-11-02",
+      "window_rule": "no range stated: the week of the note date",
+      "rule_effect": "no_increase",
+      "rule_evidence": "without a rate change",
+      "llm_effect": "increase",
+      "usable_as_justification": false
+    }
+  ],
+  "llm_usage": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "calls": 14,
+    "input_tokens": 2327,
+    "output_tokens": 239,
+    "seconds": 28.4
+  },
+  "settings": {
+    "HISTORY_WEEKS": 8,
+    "OWN_HISTORY_FLAG_PCT": 10.0,
+    "PEER_FLAG_PCT": 20.0,
+    "OPEN_ENDED_NOTE_WEEKS": 8,
+    "MAGNITUDE_TOLERANCE_PCT": 5.0,
+    "NEARBY_NOTE_DAYS": 14,
+    "LLM_MODEL": "Qwen/Qwen2.5-1.5B-Instruct",
+    "LLM_SEED": 0
+  }
+}

@@ -1,0 +1,8 @@
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.7.2
+# Only needed for the local LLM (python run.py --llm none runs without them)
+torch==2.10.0
+transformers==5.8.0
+# Tests
+pytest==8.4.2

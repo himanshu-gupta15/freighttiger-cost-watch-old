@@ -1,0 +1,11 @@
+note_id,raises_cost,scope,window_start,window_end,why
+N001,yes,Chennai-Bangalore,2025-02-24,2025-03-08,"Flooding forced detours and higher trip costs; dates explicit (passable again Mar 9)"
+N002,yes,Ahmedabad-Mumbai,2025-01-20,2025-01-26,"Festival-week surcharge; 'week' of the note date"
+N003,yes,All Routes,2025-05-05,2025-06-29,"Diesel up ~5-7% from this week; open-ended, so only the first 8 weeks (after that it is inside the rolling baseline)"
+N004,no,All Routes,2024-03-11,2024-03-17,"Affected routes are not part of this dataset"
+N005,no,Mumbai-Delhi,2024-07-29,2024-08-04,"Delays, but costs explicitly not significantly affected"
+N006,no,All Routes,2025-09-22,2025-09-28,"Stable demand, no disruptions: not a reason for a rise"
+N007,no,Delhi-Jaipur,2024-05-20,2024-05-26,"Roads improved: if anything lowers cost"
+N008,no,Kolkata-Bhubaneswar,2025-06-09,2025-06-15,"No disruptions, movement normal"
+N009,no,Chennai-Bangalore,2025-03-17,2025-03-23,"Route returned to normal: end of the flood, not a cost driver"
+N010,no,All Routes,2025-10-27,2025-11-02,"Compliance cost absorbed by transporters without a rate change"
